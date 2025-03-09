@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周方雄 - 个人简历网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="welcome.css">
+    <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入Chart.js用于数据可视化 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- 欢迎页面 -->
+    <div class="welcome-screen">
+        <h1 class="welcome-title">欢迎访问周方雄的个人网站！</h1>
+        <p class="welcome-subtitle">在这里你可以了解关于我的一切</p>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#portfolio">作品展示</a></li>
+                    <li><a href="#skills">掌握工具</a></li>
+                    <li><a href="#experience">实践经历</a></li>
+                    <li><a href="#achievements">所获荣誉</a></li>
+                    <li><a href="#data">数据展示</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="profile-info">
+                <div class="profile-image">
+                    <img src="images/图片1.png" alt="个人照片">
+                </div>
+                <div class="profile-text">
+                    <h2>周方雄</h2>
+                    <p class="tagline">西北民族大学 2023级新闻学 | AI工具深度玩家 | 用镜头讲故事的新媒体创意人</p>
+                    <p class="bio">📸 超能力组合<br>镜头语言大师：Premiere+达芬奇+无人机+微单，让创意落地成片<br>AI先锋派：用StableDiffusion/Runway生成视觉魔法，Python+AI编程玩转数据分析<br>平台增长官：4个月让视频号播放量冲上89万+，公众号排版比秀米更懂年轻人<br><br>📈 职场DNA<br>"比起按部就班，更爱用新闻嗅觉搞事情——从法院宣传到大学官方号运营，永远在热点发生的第一现场。相信好内容自带传播力，擅长把专业新闻思维变成让Z世代尖叫的视听语言。"<br><br>✨ 一句话价值<br>能写爆款文案、能带团队冲KPI、能用AI降本增效的全能型新媒体特种兵，随时为你的品牌注入传播加速度！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">作品展示</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <!-- 轮播图内容将通过JavaScript动态生成 -->
+                </div>
+                <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">掌握工具</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-video"></i> 视频编辑</h3>
+                    <ul class="skill-list">
+                        <li>Premiere</li>
+                        <li>Audition</li>
+                        <li>DaVinci 音视频处理软件</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-image"></i> 图像处理</h3>
+                    <ul class="skill-list">
+                        <li>Photoshop</li>
+                        <li>Lightroom等图像处理软件</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-file-alt"></i> 办公软件</h3>
+                    <ul class="skill-list">
+                        <li>Word</li>
+                        <li>Excel</li>
+                        <li>PowerPoint 等办公软件</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-broadcast-tower"></i> 直播工具</h3>
+                    <ul class="skill-list">
+                        <li>OBS</li>
+                        <li>Vmix</li>
+                        <li>芯象等导播推流拉流软件</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI工具</h3>
+                    <ul class="skill-list">
+                        <li>Runway、Sora、KLING等AI视频工具</li>
+                        <li>StableDiffusion等AI图片工具</li>
+                        <li>Cursor、Tare等AI编程工具</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> 编程技能</h3>
+                    <ul class="skill-list">
+                        <li>Python语言等可交互可视化网站制作</li>
+                        <li>API调用和数据分析工具</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-file-code"></i> 账号运营</h3>
+                    <ul class="skill-list">
+                        <li>秀米编辑器制作公众号推文</li>
+                        <li>H5制作工具</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-camera"></i> 创作技能</h3>
+                    <ul class="skill-list">
+                        <li>微单、摄影机、稳定器、无人机等摄影摄像录音设备</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data" class="data-visualization">
+        <div class="container">
+            <h2 class="section-title">数据展示</h2>
+            <div class="charts-container">
+                <div class="chart-item">
+                    <h3>作品类型分布</h3>
+                    <canvas id="workTypeChart"></canvas>
+                </div>
+                <div class="chart-item">
+                    <h3>观众互动数据</h3>
+                    <div class="engagement-stats"></div>
+                </div>
+                <div class="chart-item">
+                    <h3>年度作品数量</h3>
+                    <canvas id="yearlyProductionChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">实践经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024.02</div>
+                    <div class="timeline-content">
+                        <h3>永新县人民法院 政治部 实习生</h3>
+                        <ul>
+                            <li>参与宣传稿件撰写，宣传视频拍摄制作</li>
+                            <li>独立创作回6条，平均播放量33万+，总计互动量1万+</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024.06</div>
+                    <div class="timeline-content">
+                        <h3>西北民族大学 党委宣传部新媒体研究中心 视频号负责人</h3>
+                        <ul>
+                            <li>负责视频号团队管理，带领团队合作发布作品29条，总计播放量89万+</li>
+                            <li>负责西北民族大学官方视频号运营，粉丝数量增长33.23%，互动量6.7万+</li>
+                            <li>参与多场直播活动，现场导播4场，后台转播3场，总计获赞量50万+</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024.10</div>
+                    <div class="timeline-content">
+                        <h3>中国大学生在线 小中视频媒体工作室直播项目 成员</h3>
+                        <ul>
+                            <li>参与中国大学生在线官方视频号及其附属账号的线上直播工作</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">所获荣誉</h2>
+            <div class="achievements-container">
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>甘肃省第二届大学生新闻作品大赛二等奖</h3>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>甘肃省第十四届"挑战杯"银奖</h3>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>西北民族大学中国国际大学生创新大赛（2024）一等奖</h3>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>西北民族大学社会实践先进个人</h3>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>西北民族大学校级奖学金</h3>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>西北民族大学文明新风奖学金</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-chat" class="ai-chat">
+        <div class="container">
+            <h2 class="section-title">与我的AI助手对话</h2>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message ai">
+                        <p>你好！我是AI助手，很高兴为你提供帮助。请问有什么我可以协助你的吗？</p>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="userMessage" placeholder="输入你的问题...">
+                    <button id="sendMessage"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系方式</h2>
+            <div class="social-icons">
+                <a href="#" class="social-icon" data-platform="常住地" data-contact="中国·兰州">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <a href="#" class="social-icon" data-platform="电话" data-contact="17379608015">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="#" class="social-icon" data-platform="电子邮件" data-contact="13186147660@qq.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#" class="social-icon" data-platform="微信" data-contact="z1318614760">
+                    <i class="fab fa-weixin"></i>
+                </a>
+                <a href="#" class="social-icon" data-platform="QQ" data-contact="13186147660">
+                    <i class="fab fa-qq"></i>
+                </a>
+            </div>
+            <div class="contact-popup" id="contactPopup">
+                <div class="popup-content">
+                    <span class="close-popup">&times;</span>
+                    <h3 id="popupTitle">联系方式</h3>
+                    <p id="popupContent"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 周方雄个人网站. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
